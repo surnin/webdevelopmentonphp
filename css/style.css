@@ -1,0 +1,110 @@
+/*Стили по умолчанию*/
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #f8f8f8;
+    color: #47464c;
+    margin-left: 20px;
+}
+
+/*Меню*/
+.mеnu li {
+    color: #444444;
+    list-style-type: none;
+    font-family: 'PT Sans Narrow';
+    border: #3424ff solid 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #5445ff;
+    height: auto;
+    width: 70px;
+    display: inline;
+}
+
+/*меню. стили ссылок*/
+.mеnu a {
+    text-decoration: none;
+    color: #f8f8f8;
+    font-size: 1.2em;
+}
+
+/*Заголовки*/
+.offer h1, h2 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+/*товар. краткое описание*/
+.offer-anons {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+/*товар. подробное описание*/
+.offer-description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+/*товар. списко характиристик*/
+.list-specification {
+    list-style-image: url("../img/correct.png");
+}
+
+/*каталог. блок товара*/
+.list-catalog-block li {
+    display: inline-block;
+    background-size: 447px 169px;
+    background-image: url("https://images.freeimages.com/images/large-previews/482/abstract-blue-red-gradient-free-photo-1164375.jpg");
+    border: solid #b5b5b5 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 70px 30px 70px 30px;
+}
+
+/*каталог. текст в блоке товара*/
+.list-catalog-block a{
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+/*котакты*/
+input, textarea{
+    width: 270px;
+    height: 40px;
+}
+
+/*котакты. плейсхолдер*/
+[placeholder]{
+    font-size: 1.1em;
+    font-family: "Roboto Condensed";
+    font-style: italic;
+}
+
+/*котакты. кнопка отправить*/
+[type="submit"]{
+    background: rgba(29, 148, 17, 0.08);
+    font-size: 1.12em;
+    font-weight: 600;
+}
+
+/*Ссылка на ресурс откуда взята иконка*/
+.flaticon {
+    color: #cccccc;
+}
+
+.flaticon a {
+    color: #cccccc;
+}
